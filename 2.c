@@ -18,7 +18,7 @@ scanf("%d",&ch);
 }while(ch);
 nsec=i;
 printf("\n second \t recieved \t sent \t dropped \t remained \n");
-for(i=0;count || i<nsec;i++)
+for(i=0;i<nsec;i++)
 {
 printf("%d",i+1);
 printf(" \t %d\t ",inp[i]);
