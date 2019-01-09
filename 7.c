@@ -4,7 +4,7 @@ int hf=0,lf=0,hr=0,lr=0;
 
 void insert(int val,int pri){
   if(pri==1){
-    if(hr<4){
+    if(hr<=4){
     printf("Packet inserted into high priority queue\n");
     high[hr++]=val;
   }
@@ -12,7 +12,7 @@ void insert(int val,int pri){
     printf("The queue is full\n");
   }
   else if(pri==2){
-   if(lr<4){
+   if(lr<=4){
     printf("Packet inserted into low priority queue\n");
     low[lr++]=val;
   }
